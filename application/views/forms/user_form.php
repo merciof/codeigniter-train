@@ -1,17 +1,14 @@
-<head>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-</head>
 <div class="container">
     <div class="row">
-        <form action="http://localhost/index.php/teste/inserir" method="post" accept-charset="utf-8">
+        <form action="http://localhost:8080/index.php/user/criar" method="post" accept-charset="utf-8">
             <div class="form-group">
                 <label for="user_email">Email address</label>
-                <input type="email" class="form-control" id="user_email" aria-describedby="emailHelp" placeholder="Enter email">
+                <input type="email" class="form-control" name="user_email" aria-describedby="emailHelp" placeholder="Enter email">
                 <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
             </div>
             <div class="form-group">
                 <label for="user_password">Password</label>
-                <input type="password" class="form-control" id="user_password" placeholder="Password">
+                <input type="password" class="form-control" name="user_password" placeholder="Password">
             </div>
             <div class="form-check">
                 <input type="checkbox" class="form-check-input" id="exampleCheck1">
@@ -21,9 +18,6 @@
         </form>
     </div>
 </div>
-
-
-
 
 
 

@@ -16,8 +16,6 @@
 
 echo '<br>';
 
-var_dump($indice);
-
 echo '<br>';
 
 // var_dump($data);

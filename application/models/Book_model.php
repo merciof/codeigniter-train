@@ -1,20 +1,31 @@
 <?php
+
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Book_model extends CI_Model{
+class Book_model extends CI_Model {
 
-  public function __construct()
-  {
-    parent::__construct();
-    //Codeigniter : Write Less Do More
-  }
+    public function __construct() {
+        parent::__construct();
+        //Codeigniter : Write Less Do More
+    }
 
-  public function getBooks() {
+    public function criar() {
 
+    }
 
-    $query = $this->db->query("SELECT * FROM books");
+    public function atualizar() {
 
-    return $query->result();
-  }
+    }
+
+    public function deletar() {
+
+    }
+
+    public function recuperar() {
+
+        $query = $this->db->query("SELECT * FROM books");
+
+        return $query->result();
+    }
 
 }
